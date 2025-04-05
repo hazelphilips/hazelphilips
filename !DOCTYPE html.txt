@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hazal Fashion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #b8f2e6, #d8b4f8);
+      color: #333;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    .hero-text {
+      font-size: 2.5rem;
+      color: #30caa0;
+    }
+    .subtext {
+      font-size: 1.3rem;
+      color: #9c6ee8;
+    }
+    .sales {
+      background-color: #9c6ee8;
+      color: white;
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .contact-btn {
+      background-color: #9c6ee8;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    .contact-btn:hover {
+      background-color: #7c4dcc;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section">
+    <h1 class="hero-text">Welcome to Hazal</h1>
+    <p class="subtext">Trendy & Fashionable Clothes Just for You</p>
+    <div class="sales">⚡️ Big Sales & Discounts Now! ⚡️</div>
+  </section>
+
+  <section class="section">
+    <h2>About Hazal</h2>
+    <p>
+      At Hazal, our mission is to provide our customers with the best and most fashionable clothes.
+      We believe in staying ahead of the trends and offering styles that inspire confidence and individuality.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Featured Styles</h2>
+    <div class="gallery">
+      <img src="/images/jeans-blue.jpg" alt="Blue Jeans">
+      <img src="/images/jacket-blue.jpg" alt="Blue Jacket">
+      <img src="/images/jeans-black.jpg" alt="Black Jeans">
+      <img src="/images/jacket-black.jpg" alt="Black Jacket">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Get in Touch</h2>
+    <p>Have questions or want to collaborate?</p>
+    <a href="mailto:hazal2025@gmail.com" class="contact-btn">📧 hazal2025@gmail.com</a>
+  </section>
+
+</body>
+</html>
